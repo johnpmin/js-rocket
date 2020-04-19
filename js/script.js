@@ -10,6 +10,9 @@ var car = {
                   "seat 4" ],
   carOn: function(){
     this.isTurnedOn = true;
+  },
+  fly: function(){
+    alert('we can fly over the world');
   }
-  
+
 };
