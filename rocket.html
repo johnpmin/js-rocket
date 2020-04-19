@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rocket Launch Sequence</title>
+    <link rel="stylesheet" href="/Volumes/E Drive/Web Projects/js-rocket/css/rocket.css">
+  </head>
+  <body class="body-state1">
+    <div class="left">
+      <div class="state1">
+        <h1>JS Rocket Launch</h1>
+        <a class="button" onclick="changeState(2)" href="#">Launch</a>
+      </div>
+      <div class="state2">
+        <h1 id="countdown">10</h1>
+        <a class="button" onclick="changeState(1)" href="#">Abort</a>
+      </div>
+      <div class="state3">
+        <h1>Lift Off!</h1>
+      </div>
+      <div class="state4">
+        <h1>Well done!</h1>
+        <a class="button" onclick="changeState(1)" href="#">Do it again!</a>
+      </div>
+      <div class="state5">
+        <h1>Oh NO!</h1>
+        <a class="button" onclick="changeState(1)" href="#">Try again!</a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="ground"></div>
+      <div class="rocket"></div>
+    </div>
+    <script type="text/javascript" src="/Volumes/E Drive/Web Projects/js-rocket/js/rocket.js">
+
+    </script>
+  </body>
+</html>
